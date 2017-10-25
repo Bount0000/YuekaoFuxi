@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <CheckBox
+            android:id="@+id/cb_zi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_shangpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shang"/>
+        <TextView
+            android:id="@+id/tv_jiage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"/>
+
+            <com.example.yuekaofuxi.AmountView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:btnTextSize="10sp"
+                app:btnWidth="30dp"
+                app:tvWidth="30dp">
+            </com.example.yuekaofuxi.AmountView>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffff00"></View>
+
+</LinearLayout>
